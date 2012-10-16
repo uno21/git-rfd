@@ -1,0 +1,45 @@
+body {
+	background-color: #e24840;
+	font-family: "Maven Pro",sans-serif;
+}
+
+a {
+	color: #FDBB33;
+}
+
+div.fadeover img {
+	position: absolute;
+}
+
+.fade {
+	opacity: 1;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+}
+ 
+.fade:hover {
+	opacity: 0;
+}
+
+.title {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 48px;
+    color: #FDBB33;
+    text-shadow: 2px 2px 1px #000;
+    margin-top: 40px;
+}
+
+h2 {
+	font-size: 22px;
+	text-shadow: 1px 1px 1px #ccc;
+}
+
+
+
+section, header {
+	margin-top: 45px;
+}
